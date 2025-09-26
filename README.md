@@ -4,4 +4,6 @@ This repository contains data and scripts for reproducing the human evaluation o
 
 Meaningful Pose-Based Sign Language Evaluation.
 
-We follow the practices in https://github.com/WMT-SLT/wmt-slt23.
+We use the [Signsuisse](https://www.sgb-fss.ch/signsuisse/) dataset released in the [WMT-SLT 23](https://www.wmt-slt.com/data#h.l0qcgunwhkqt) campaign and follow the practices in:
+
+https://github.com/WMT-SLT/wmt-slt23.

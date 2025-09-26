@@ -1,6 +1,6 @@
-# Text2Pose Human Evalution
+# Text2Pose Human Evaluation
 
-This repository contains data and scripts for reproducing the evaluation of the paper:
+This repository contains data and scripts for reproducing the human evaluation of the paper:
 
 Meaningful Pose-Based Sign Language Evaluation.
 

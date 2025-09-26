@@ -1,0 +1,77 @@
+size of dataset: 5061
+annotators:
+['Lisa0' 'Lisa' 'dsgs01' 'dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06'
+ 'dsgs07']
+           count  mean_score
+annotator                   
+Lisa        1057   49.492904
+Lisa0        100   47.620000
+dsgs01       204   40.642157
+dsgs02       700   56.552857
+dsgs03      1100   35.888182
+dsgs04       600   58.573333
+dsgs05       600   41.196667
+dsgs06       300   22.166667
+dsgs07       400   57.470000
+systems:
+['ref' 'sockeye' 'sign_mt']
+         count  mean_score
+system                    
+ref       2700   74.071852
+sign_mt    861   23.580720
+sockeye   1500    9.089333
+annotators + systems:
+                   count  mean_score
+annotator system                    
+Lisa      ref        500   82.900000
+          sign_mt     57   42.245614
+          sockeye    500   16.912000
+Lisa0     ref        100   47.620000
+dsgs01    ref        100   76.290000
+          sign_mt      4   37.750000
+          sockeye    100    5.110000
+dsgs02    ref        500   72.206000
+          sign_mt    100   30.780000
+          sockeye    100    4.060000
+dsgs03    ref        400   78.755000
+          sign_mt    300   17.640000
+          sockeye    400    6.707500
+dsgs04    ref        400   78.832500
+          sign_mt    100   33.670000
+          sockeye    100    2.440000
+dsgs05    ref        400   58.827500
+          sign_mt    100    9.840000
+          sockeye    100    2.030000
+dsgs06    ref        100   58.150000
+          sign_mt    100    7.700000
+          sockeye    100    0.650000
+dsgs07    ref        200   88.345000
+          sign_mt    100   42.530000
+          sockeye    100   10.660000
+annotators after filtering:
+['dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06' 'dsgs07']
+        username   system  itemid itemtype srclang trglang  score          documentid  isdocumentlevelscore     timestart       timeend annotator                  seg_id  normalized_score
+699   deusgg0104      ref       6      REF     deu     sgg     77   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:6         76.530612
+700   deusgg0104      ref       7      REF     deu     sgg     92   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:7         91.836735
+701   deusgg0104      ref       9      REF     deu     sgg     58   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:9         57.142857
+702   deusgg0104      ref      10      REF     deu     sgg     99   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02    signsuisse.dsgs.0:10         98.979592
+703   deusgg0104      ref      13      REF     deu     sgg    100   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02    signsuisse.dsgs.0:13        100.000000
+...          ...      ...     ...      ...     ...     ...    ...                 ...                   ...           ...           ...       ...                     ...               ...
+5048  deusgg0308  sign_mt     807      TGT     deu     sgg     33  signsuisse.dsgs.40                 False  1.732187e+09  1.732187e+09    dsgs07  signsuisse.dsgs.40:807         33.000000
+5049  deusgg0308  sign_mt     815      TGT     deu     sgg     15  signsuisse.dsgs.41                 False  1.732187e+09  1.732187e+09    dsgs07  signsuisse.dsgs.41:815         15.000000
+5056  deusgg0308  sign_mt     906      TGT     deu     sgg     93  signsuisse.dsgs.45                 False  1.732192e+09  1.732192e+09    dsgs07  signsuisse.dsgs.45:906         93.000000
+5059  deusgg0308  sign_mt     960      TGT     deu     sgg     84  signsuisse.dsgs.48                 False  1.732193e+09  1.732193e+09    dsgs07  signsuisse.dsgs.48:960         84.000000
+5060  deusgg0308  sign_mt     982      TGT     deu     sgg     48  signsuisse.dsgs.49                 False  1.732194e+09  1.732194e+09    dsgs07  signsuisse.dsgs.49:982         48.000000
+
+[3700 rows x 14 columns]
+Inter Annotator agreement (Fleiss kappa)
+score:
+(300, 7)
+(1199, 7)
+0.27$\pm$0.04 -0.01$\pm$0.01
+
+normalized_score:
+(300, 7)
+(1199, 7)
+0.28$\pm$0.04 0.0$\pm$0.01
+alpha_value: 0.01

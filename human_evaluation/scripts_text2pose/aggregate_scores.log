@@ -1,0 +1,145 @@
+Contents of text2poseSignsuisse.deu-sgg.ref.csv:
+     username system  itemid itemtype srclang trglang  score
+110      Lisa    ref       6      REF     deu     sgg     84
+111      Lisa    ref       7      REF     deu     sgg     81
+112      Lisa    ref       9      REF     deu     sgg     83
+113      Lisa    ref      10      REF     deu     sgg     84
+114      Lisa    ref      13      REF     deu     sgg     82
+...       ...    ...     ...      ...     ...     ...    ...
+2843   dsgs07    ref     985      REF     deu     sgg     92
+2844   dsgs07    ref     986      REF     deu     sgg     92
+2845   dsgs07    ref     987      REF     deu     sgg    100
+2846   dsgs07    ref     990      REF     deu     sgg    100
+2847   dsgs07    ref     991      REF     deu     sgg     67
+
+[2700 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.deu-sgg.sockeye.csv:
+     username   system  itemid itemtype srclang trglang  score
+0        Lisa  sockeye       6      TGT     deu     sgg     16
+1        Lisa  sockeye       7      TGT     deu     sgg     16
+2        Lisa  sockeye       9      TGT     deu     sgg     16
+3        Lisa  sockeye      10      TGT     deu     sgg     16
+4        Lisa  sockeye      13      TGT     deu     sgg     16
+...       ...      ...     ...      ...     ...     ...    ...
+1570   dsgs07  sockeye     985      TGT     deu     sgg     17
+1571   dsgs07  sockeye     986      TGT     deu     sgg      7
+1572   dsgs07  sockeye     987      TGT     deu     sgg      8
+1573   dsgs07  sockeye     990      TGT     deu     sgg      8
+1574   dsgs07  sockeye     991      TGT     deu     sgg      9
+
+[1500 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.deu-sgg.sign_mt.csv:
+    username   system  itemid itemtype srclang trglang  score
+0       Lisa  sign_mt     798      TGT     deu     sgg     46
+1       Lisa  sign_mt     800      TGT     deu     sgg     24
+2       Lisa  sign_mt     801      TGT     deu     sgg     24
+3       Lisa  sign_mt     802      TGT     deu     sgg     50
+4       Lisa  sign_mt     803      TGT     deu     sgg     24
+..       ...      ...     ...      ...     ...     ...    ...
+918   dsgs07  sign_mt     985      TGT     deu     sgg     33
+919   dsgs07  sign_mt     986      TGT     deu     sgg      8
+920   dsgs07  sign_mt     987      TGT     deu     sgg     66
+921   dsgs07  sign_mt     990      TGT     deu     sgg     85
+922   dsgs07  sign_mt     991      TGT     deu     sgg     67
+
+[861 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.deu-sgg.r2.dsgs03.csv:
+    username      system  itemid itemtype srclang trglang  score
+176   dsgs03         ref     490      REF     deu     sgg     84
+40    dsgs03         ref     491      REF     deu     sgg     78
+187   dsgs03         ref     493      REF     deu     sgg     68
+318   dsgs03         ref     496      REF     deu     sgg     59
+160   dsgs03         ref     500      REF     deu     sgg     85
+..       ...         ...     ...      ...     ...     ...    ...
+248   dsgs03  sign_mt_v2     987      TGT     deu     sgg     49
+204   dsgs03  sign_mt_v2     990      TGT     deu     sgg     16
+264   dsgs03  sign_mt_v2     990      TGT     deu     sgg     33
+112   dsgs03  sign_mt_v2     991      TGT     deu     sgg     23
+194   dsgs03  sign_mt_v2     991      TGT     deu     sgg     17
+
+[300 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.deu-sgg.r2.csv:
+     username   system  itemid itemtype srclang trglang  score
+361    dsgs02      ref     490      REF     deu     sgg     84
+378    dsgs02      ref     491      REF     deu     sgg     67
+169    dsgs02      ref     493      REF     deu     sgg     67
+528    dsgs02      ref     496      REF     deu     sgg     58
+96     dsgs02      ref     500      REF     deu     sgg     83
+...       ...      ...     ...      ...     ...     ...    ...
+2448   dsgs07  sockeye     985      TGT     deu     sgg      0
+2461   dsgs07  sockeye     986      TGT     deu     sgg      0
+2562   dsgs07  sockeye     987      TGT     deu     sgg      0
+2242   dsgs07  sockeye     990      TGT     deu     sgg      0
+2510   dsgs07  sockeye     991      TGT     deu     sgg      0
+
+[2500 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.fra-fsl.r2.csv:
+     username      system  itemid itemtype srclang trglang  score
+31      lsf01  sign_mt_v2     218      TGT     fra     fsl     16
+27      lsf01  sign_mt_v2     225      TGT     fra     fsl      0
+24      lsf01  sign_mt_v2     909      TGT     fra     fsl     15
+28      lsf01     sockeye     328      TGT     fra     fsl      0
+22      lsf01     sockeye     648      TGT     fra     fsl      0
+...       ...         ...     ...      ...     ...     ...    ...
+1259    lsf03     sockeye     996      TGT     fra     fsl      0
+1241    lsf03     sockeye     997      TGT     fra     fsl      0
+1265    lsf03     sockeye     997      TGT     fra     fsl      0
+820     lsf03     sockeye     999      TGT     fra     fsl      0
+1244    lsf03     sockeye     999      TGT     fra     fsl      0
+
+[1210 rows x 7 columns]
+--------------------------------------------------------------------------------
+Contents of text2poseSignsuisse.ita-ise.r2.csv:
+     username   system  itemid itemtype srclang trglang  score
+494     lis01      ref       1      REF     ita     ise    100
+521     lis01      ref       4      REF     ita     ise    100
+271     lis01      ref       5      REF     ita     ise    100
+432     lis01      ref       8      REF     ita     ise    100
+303     lis01      ref      12      REF     ita     ise     84
+...       ...      ...     ...      ...     ...     ...    ...
+2564    lis04  sockeye     989      TGT     ita     ise     17
+2546    lis04  sockeye     995      TGT     ita     ise      0
+2570    lis04  sockeye     995      TGT     ita     ise      0
+2124    lis04  sockeye     998      TGT     ita     ise      0
+2549    lis04  sockeye     998      TGT     ita     ise     15
+
+[2400 rows x 7 columns]
+--------------------------------------------------------------------------------
+Aggregated CSV file saved to human_evaluation/batches_text2pose/results/aggregated.csv
+Sanity check PASSED: Total aggregated rows = 11471
+
+--- Per User Evaluation Statistics ---
+                          count       mean        std      min       max mean/count_ref mean/count_sockeye mean/count_sign_mt mean/count_sign_mt_v2 intra_agreement (#rows)
+username                                                                                                                                                                   
+Lisa                  1057.0000  49.492904  32.482691  15.0000  100.0000      82.90/500          16.91/500           42.25/57                   N/A                     N/A
+Lisa0                  100.0000  47.620000  11.729080  17.0000   76.0000      47.62/100                N/A                N/A                   N/A                     N/A
+dsgs01                 204.0000  40.642157  38.911221   0.0000  100.0000      76.29/100           5.11/100            37.75/4                   N/A                     N/A
+dsgs02                1200.0000  43.063333  33.131668   0.0000  100.0000      72.55/550           2.13/275          30.78/100             29.50/275         0.32±0.06 (100)
+dsgs03                1400.0000  35.986429  30.834437   1.0000   92.0000      78.78/425           6.71/400          17.64/300             32.45/275          0.39±0.09 (50)
+dsgs04                1100.0000  43.925455  35.298750   0.0000  100.0000      78.97/450           1.23/275          33.67/100             33.00/275         0.45±0.06 (100)
+dsgs05                1100.0000  33.873636  28.043957   0.0000   99.0000      60.66/450           1.26/275           9.84/100             31.40/275         0.41±0.06 (100)
+dsgs06                 800.0000  19.143750  25.913799   0.0000  100.0000      59.32/150           0.24/275           7.70/100             20.29/275          0.54±0.11 (50)
+dsgs07                 900.0000  49.573333  38.733541   0.0000  100.0000      89.96/250           4.35/275          42.53/100             60.65/275          0.37±0.10 (50)
+lis01                  600.0000  26.900000  29.768164   0.0000  100.0000       98.20/50           1.55/275                N/A             39.28/275          0.38±0.10 (50)
+lis02                  600.0000  14.656667  15.517521   0.0000   58.0000       46.44/50           0.01/275                N/A             23.53/275          0.77±0.08 (50)
+lis03                  600.0000  29.998333  32.992917   0.0000  100.0000       99.58/50           1.22/275                N/A             46.12/275          0.55±0.10 (50)
+lis04                  600.0000  17.536667  22.066041   0.0000  100.0000       66.52/50           0.27/275                N/A             25.89/275          0.59±0.10 (50)
+lsf01                   10.0000   3.500000   6.398785   0.0000   16.0000            N/A             0.57/7                N/A               10.33/3                     N/A
+lsf02                  600.0000  19.788333  24.468989   0.0000  100.0000       78.74/50           1.79/275                N/A             27.07/275          0.55±0.10 (50)
+lsf03                  600.0000  15.393333  25.625829   0.0000  100.0000       89.92/50           0.00/275                N/A             17.23/275          0.62±0.11 (50)
+Mean Intra-Agreement   716.9375  30.693396  26.994837   2.0625   90.0625            NaN                NaN                NaN                   NaN                    0.49
+
+Average intra-agreement stderr (over users): 0.09
+
+--- Per System Evaluation Statistics (sorted by fixed system order, with Total row) ---
+            count       mean        std min  max                                                                                                       evaluated_users inter_agreement (#rows)
+ref          3275  74.934351  19.168408   0  100         Lisa, Lisa0, dsgs01, dsgs02, dsgs03, dsgs04, dsgs05, dsgs06, dsgs07, lis01, lis02, lis03, lis04, lsf02, lsf03         0.01±0.06 (400)
+sockeye      4032   3.849206   6.688377   0   84         Lisa, dsgs01, dsgs02, dsgs03, dsgs04, dsgs05, dsgs06, dsgs07, lis01, lis02, lis03, lis04, lsf01, lsf02, lsf03         0.13±0.19 (750)
+sign_mt       861   23.58072  19.199069   0  100                                                          Lisa, dsgs01, dsgs02, dsgs03, dsgs04, dsgs05, dsgs06, dsgs07        -0.00±0.06 (100)
+sign_mt_v2   3303  32.182864  19.593179   0  100                       dsgs02, dsgs03, dsgs04, dsgs05, dsgs06, dsgs07, lis01, lis02, lis03, lis04, lsf01, lsf02, lsf03         0.05±0.04 (750)
+Total       11471  33.783715  32.646649   0  100  Lisa, Lisa0, dsgs01, dsgs02, dsgs03, dsgs04, dsgs05, dsgs06, dsgs07, lis01, lis02, lis03, lis04, lsf01, lsf02, lsf03        0.36±0.05 (2100)

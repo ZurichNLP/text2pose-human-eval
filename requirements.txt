@@ -1,0 +1,7 @@
+fastdtw
+pose-format
+scipy
+numpy
+pandas
+pyzstd
+pympi-ling

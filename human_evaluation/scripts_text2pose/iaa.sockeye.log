@@ -1,0 +1,54 @@
+size of dataset: 1500
+annotators:
+['Lisa' 'dsgs01' 'dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06' 'dsgs07']
+           count  mean_score
+annotator                   
+Lisa         500     16.9120
+dsgs01       100      5.1100
+dsgs02       100      4.0600
+dsgs03       400      6.7075
+dsgs04       100      2.4400
+dsgs05       100      2.0300
+dsgs06       100      0.6500
+dsgs07       100     10.6600
+systems:
+['sockeye']
+         count  mean_score
+system                    
+sockeye   1500    9.089333
+annotators + systems:
+                   count  mean_score
+annotator system                    
+Lisa      sockeye    500     16.9120
+dsgs01    sockeye    100      5.1100
+dsgs02    sockeye    100      4.0600
+dsgs03    sockeye    400      6.7075
+dsgs04    sockeye    100      2.4400
+dsgs05    sockeye    100      2.0300
+dsgs06    sockeye    100      0.6500
+dsgs07    sockeye    100     10.6600
+annotators after filtering:
+['dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06' 'dsgs07']
+        username   system  itemid itemtype srclang trglang  score          documentid  isdocumentlevelscore     timestart       timeend annotator                  seg_id  normalized_score
+595   deusgg0203  sockeye     798      TGT     deu     sgg      3  signsuisse.dsgs.40                 False  1.731675e+09  1.731675e+09    dsgs02  signsuisse.dsgs.40:798          7.142857
+596   deusgg0203  sockeye     803      TGT     deu     sgg      3  signsuisse.dsgs.40                 False  1.731675e+09  1.731675e+09    dsgs02  signsuisse.dsgs.40:803          7.142857
+597   deusgg0203  sockeye     805      TGT     deu     sgg      6  signsuisse.dsgs.40                 False  1.731675e+09  1.731675e+09    dsgs02  signsuisse.dsgs.40:805         28.571429
+598   deusgg0203  sockeye     806      TGT     deu     sgg      4  signsuisse.dsgs.40                 False  1.731675e+09  1.731675e+09    dsgs02  signsuisse.dsgs.40:806         14.285714
+599   deusgg0203  sockeye     807      TGT     deu     sgg      3  signsuisse.dsgs.40                 False  1.731675e+09  1.731675e+09    dsgs02  signsuisse.dsgs.40:807          7.142857
+...          ...      ...     ...      ...     ...     ...    ...                 ...                   ...           ...           ...       ...                     ...               ...
+1427  deusgg0208  sockeye     985      TGT     deu     sgg     17  signsuisse.dsgs.49                 False  1.733909e+09  1.733909e+09    dsgs07  signsuisse.dsgs.49:985         23.880597
+1428  deusgg0208  sockeye     986      TGT     deu     sgg      7  signsuisse.dsgs.49                 False  1.733909e+09  1.733909e+09    dsgs07  signsuisse.dsgs.49:986          8.955224
+1429  deusgg0208  sockeye     987      TGT     deu     sgg      8  signsuisse.dsgs.49                 False  1.733909e+09  1.733909e+09    dsgs07  signsuisse.dsgs.49:987         10.447761
+1430  deusgg0208  sockeye     990      TGT     deu     sgg      8  signsuisse.dsgs.49                 False  1.733909e+09  1.733909e+09    dsgs07  signsuisse.dsgs.49:990         10.447761
+1431  deusgg0208  sockeye     991      TGT     deu     sgg      9  signsuisse.dsgs.49                 False  1.733909e+09  1.733909e+09    dsgs07  signsuisse.dsgs.49:991         11.940299
+
+[900 rows x 14 columns]
+Inter Annotator agreement (Fleiss kappa)
+score:
+(100, 7)
+(399, 7)
+0.15$\pm$0.17 -0.03$\pm$0.01
+
+normalized_score:
+(100, 7)
+(399, 7)

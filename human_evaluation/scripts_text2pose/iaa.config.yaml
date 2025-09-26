@@ -1,0 +1,22 @@
+# The files that contain the human annotations (Appraise format)
+csv_files:
+  - human_evaluation/batches_text2pose/results/text2poseSignsuisse.deu-sgg.ref.csv
+  - human_evaluation/batches_text2pose/results/text2poseSignsuisse.deu-sgg.sockeye.csv
+  - human_evaluation/batches_text2pose/results/text2poseSignsuisse.deu-sgg.sign_mt.csv
+
+# A csv file containing the header, i.e. the description of the columns
+csv_header_file: human_evaluation/scores/header/header.csv
+
+# Likert scale to discretize the full score scale for the Fleiss correation
+discretize_scale: 6
+
+# N as the range from 0 to N that the scores have been assigned
+score_scale: 100
+
+annotator_usernames: []
+
+annotator_accounts:
+  - human_evaluation/batches_text2pose/accounts/text2poseSignsuisse.deu-sgg.ref.csv
+  - human_evaluation/batches_text2pose/accounts/text2poseSignsuisse.deu-sgg.sockeye.csv
+  - human_evaluation/batches_text2pose/accounts/text2poseSignsuisse.deu-sgg.sign_mt.csv
+

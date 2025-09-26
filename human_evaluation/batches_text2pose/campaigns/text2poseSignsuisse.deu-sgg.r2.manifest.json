@@ -1,0 +1,13 @@
+{
+    "CAMPAIGN_URL": "https://pub.cl.uzh.ch/service/appraise-iict/dashboard/sso/",
+    "CAMPAIGN_NAME": "text2poseSignsuisseDSGSR2",
+    "CAMPAIGN_KEY": "text2poseSignsuisseDSGSR2",
+    "CAMPAIGN_NO": 10,
+    "REDUNDANCY": 1,
+
+    "TASKS_TO_ANNOTATORS": [
+        ["deu", "sgg", "linear", 11, 55]
+    ],
+    "TASK_TYPE": "Document",
+    "TASK_OPTIONS": "SQM;WMT22SignLT;SLVideoInstructions;UILanguageDeu"
+}

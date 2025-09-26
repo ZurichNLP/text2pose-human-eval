@@ -1,0 +1,9 @@
+*~
+*.swo
+*.swp
+*.pyc
+.history
+system_outputs/
+slurm-*.out
+*.id.txt
+*.id.all.txt

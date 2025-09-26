@@ -1,0 +1,59 @@
+size of dataset: 2700
+annotators:
+['Lisa0' 'Lisa' 'dsgs01' 'dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06'
+ 'dsgs07']
+           count  mean_score
+annotator                   
+Lisa         500     82.9000
+Lisa0        100     47.6200
+dsgs01       100     76.2900
+dsgs02       500     72.2060
+dsgs03       400     78.7550
+dsgs04       400     78.8325
+dsgs05       400     58.8275
+dsgs06       100     58.1500
+dsgs07       200     88.3450
+systems:
+['ref']
+        count  mean_score
+system                   
+ref      2700   74.071852
+annotators + systems:
+                  count  mean_score
+annotator system                   
+Lisa      ref       500     82.9000
+Lisa0     ref       100     47.6200
+dsgs01    ref       100     76.2900
+dsgs02    ref       500     72.2060
+dsgs03    ref       400     78.7550
+dsgs04    ref       400     78.8325
+dsgs05    ref       400     58.8275
+dsgs06    ref       100     58.1500
+dsgs07    ref       200     88.3450
+annotators after filtering:
+['dsgs02' 'dsgs03' 'dsgs04' 'dsgs05' 'dsgs06' 'dsgs07']
+        username system  itemid itemtype srclang trglang  score          documentid  isdocumentlevelscore     timestart       timeend annotator                  seg_id  normalized_score
+699   deusgg0104    ref       6      REF     deu     sgg     77   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:6         76.530612
+700   deusgg0104    ref       7      REF     deu     sgg     92   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:7         91.836735
+701   deusgg0104    ref       9      REF     deu     sgg     58   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02     signsuisse.dsgs.0:9         57.142857
+702   deusgg0104    ref      10      REF     deu     sgg     99   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02    signsuisse.dsgs.0:10         98.979592
+703   deusgg0104    ref      13      REF     deu     sgg    100   signsuisse.dsgs.0                 False  1.731599e+09  1.731599e+09    dsgs02    signsuisse.dsgs.0:13        100.000000
+...          ...    ...     ...      ...     ...     ...    ...                 ...                   ...           ...           ...       ...                     ...               ...
+2685  deusgg0109    ref     748      REF     deu     sgg     92  signsuisse.dsgs.37                 False  1.732185e+09  1.732185e+09    dsgs07  signsuisse.dsgs.37:748         90.476190
+2688  deusgg0109    ref     801      REF     deu     sgg     92  signsuisse.dsgs.40                 False  1.732179e+09  1.732179e+09    dsgs07  signsuisse.dsgs.40:801         90.476190
+2690  deusgg0109    ref     802      REF     deu     sgg     93  signsuisse.dsgs.40                 False  1.732179e+09  1.732179e+09    dsgs07  signsuisse.dsgs.40:802         91.666667
+2694  deusgg0109    ref     856      REF     deu     sgg     16  signsuisse.dsgs.42                 False  1.732180e+09  1.732180e+09    dsgs07  signsuisse.dsgs.42:856          0.000000
+2699  deusgg0109    ref     969      REF     deu     sgg     92  signsuisse.dsgs.48                 False  1.732182e+09  1.732182e+09    dsgs07  signsuisse.dsgs.48:969         90.476190
+
+[2000 rows x 14 columns]
+Inter Annotator agreement (Fleiss kappa)
+score:
+(99, 7)
+(499, 7)
+0.01$\pm$0.06 -0.06$\pm$0.01
+
+normalized_score:
+(99, 7)
+(499, 7)
+0.02$\pm$0.05 -0.06$\pm$0.01
+alpha_value: 0.07

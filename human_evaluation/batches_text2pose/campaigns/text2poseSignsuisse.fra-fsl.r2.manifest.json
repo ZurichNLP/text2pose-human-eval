@@ -1,0 +1,13 @@
+{
+    "CAMPAIGN_URL": "https://pub.cl.uzh.ch/service/appraise-iict/dashboard/sso/",
+    "CAMPAIGN_NAME": "text2poseSignsuisseLSF",
+    "CAMPAIGN_KEY": "text2poseSignsuisseLSF",
+    "CAMPAIGN_NO": 30,
+    "REDUNDANCY": 1,
+
+    "TASKS_TO_ANNOTATORS": [
+        ["fra", "fsl", "linear", 11, 66]
+    ],
+    "TASK_TYPE": "Document",
+    "TASK_OPTIONS": "SQM;WMT22SignLT;SLVideoInstructions;UILanguageFra"
+}

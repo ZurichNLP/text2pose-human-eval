@@ -16,6 +16,14 @@ We use the [Signsuisse](https://www.sgb-fss.ch/signsuisse/) dataset released in 
 
 https://github.com/WMT-SLT/wmt-slt23.
 
+See also the guidelines to set up Appraise:
+
+https://github.com/AppraiseDev/Appraise/blob/main/INSTALL.md
+
+and EASIER interim evaluation as an example:
+
+https://github.com/bricksdont/easier-interim-eval
+
 
 
 

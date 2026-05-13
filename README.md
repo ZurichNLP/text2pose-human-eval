@@ -24,7 +24,10 @@ and EASIER interim evaluation as an example:
 
 https://github.com/bricksdont/easier-interim-eval
 
+## Raw pose data of the system outputs
 
+https://drive.google.com/file/d/1nQwm0F50RjcmU6RgHUA9dBmk31AdioMU/view?usp=sharing
+https://drive.google.com/file/d/1y0PN6UQlO41cJY8-Iv0W0MSbbvWCaxQs/view?usp=sharing
 
 
 
